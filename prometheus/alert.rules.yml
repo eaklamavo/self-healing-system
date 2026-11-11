@@ -1,0 +1,10 @@
+groups:
+  - name: self-healing-alerts
+    rules:
+      - alert: CriticalAlert
+        expr: vector(1)
+        for: 10s
+        labels:
+          severity: critical
+        annotations:
+          summary: "This is a test alert for webhook integration"

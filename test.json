@@ -1,0 +1,9 @@
+{
+  "alerts": [
+    {
+      "labels": {
+        "alertname": "CriticalAlert"
+      }
+    }
+  ]
+}
